@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.3.2](https://github.com/mayrodev/app-commit-tag-version/compare/v1.3.1...v1.3.2) (2026-05-06)
+
+
+### Bug Fixes
+
+* simplify pre-push ([8c0dc25](https://github.com/mayrodev/app-commit-tag-version/commit/8c0dc252ee06f0f506249756a7ab622872f8f28e))
+* simplify pre-push guard to one line ([47f2951](https://github.com/mayrodev/app-commit-tag-version/commit/47f2951b28cd65a225ff88e11f8c65de620cd8d7))
+
 ## [1.3.1](https://github.com/mayrodev/app-commit-tag-version/compare/v1.3.0...v1.3.1) (2026-05-06)
 
 
