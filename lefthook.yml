@@ -1,4 +1,4 @@
 pre-push:
   commands:
     bump:
-      run: npx commit-and-tag-version && LEFTHOOK=0 git push --follow-tags origin main
+      run: npx commit-and-tag-version && LEFTHOOK=0 git push --follow-tags origin main && exit 1
