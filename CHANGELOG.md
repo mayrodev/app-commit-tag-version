@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.2.0](https://github.com/mayrodev/app-commit-tag-version/compare/v1.1.6...v1.2.0) (2026-05-06)
+
+
+### Features
+
+* organize hook ([4aaab5f](https://github.com/mayrodev/app-commit-tag-version/commit/4aaab5f481be81b76d94d48a6523ff66ceb8d9ff))
+
 ## [1.1.6](https://github.com/mayrodev/app-commit-tag-version/compare/v1.1.5...v1.1.6) (2026-05-06)
 
 
