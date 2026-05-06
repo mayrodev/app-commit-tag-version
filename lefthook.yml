@@ -3,6 +3,5 @@ pre-push:
     require-changelog:
       run: |
         if ! git diff --name-only @{u}..HEAD | grep -q "CHANGELOG.md"; then
-          echo "   Rode 'npm run release' antes de fazer push."
-          exit 1
+          npx commit-and-tag-version --dry-run --noBumpWhenEmptyChanges 2>&1 | grep -q "no commits found" || exit 1
         fi
