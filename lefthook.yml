@@ -2,13 +2,7 @@ pre-push:
   commands:
     require-changelog:
       run: |
-        remote_sha=$(git rev-parse @{u} 2>/dev/null) || remote_sha=""
-        if [ -z "$remote_sha" ]; then
-          range="HEAD"
-        else
-          range="$remote_sha..HEAD"
-        fi
-        if ! git diff --name-only "$range" | grep -q "CHANGELOG.md"; then
+        if ! git diff --name-only @{u}..HEAD | grep -q "CHANGELOG.md"; then
           echo "❌ Push bloqueado: CHANGELOG.md não foi atualizado."
           echo "   Rode 'npm run release' antes de fazer push."
           exit 1
