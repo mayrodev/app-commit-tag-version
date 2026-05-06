@@ -1,4 +1,0 @@
-pre-commit:
-  commands:
-    bump:
-      run: npx commit-and-tag-version
