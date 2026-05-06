@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.3.0](https://github.com/mayrodev/app-commit-tag-version/compare/v1.2.3...v1.3.0) (2026-05-06)
+
+
+### Features
+
+* testing 004 ([a5dffe9](https://github.com/mayrodev/app-commit-tag-version/commit/a5dffe90273ccb012fb4fad944190fee41fc3aee))
+
+
+### Bug Fixes
+
+* fix pre-push guard to use upstream ref instead of stdin ([53fc5da](https://github.com/mayrodev/app-commit-tag-version/commit/53fc5dab1fb86092cfe3ca3146abf0f54927c60e))
+
 ## [1.2.3](https://github.com/mayrodev/app-commit-tag-version/compare/v1.2.2...v1.2.3) (2026-05-06)
 
 
