@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.3.3](https://github.com/mayrodev/app-commit-tag-version/compare/v1.3.2...v1.3.3) (2026-05-06)
+
+
+### Bug Fixes
+
+* allow push when no bumpable commits exist ([32bbc14](https://github.com/mayrodev/app-commit-tag-version/commit/32bbc1427e59908712ce36eb392fd41817e513a2))
+
 ## [1.3.2](https://github.com/mayrodev/app-commit-tag-version/compare/v1.3.1...v1.3.2) (2026-05-06)
 
 
