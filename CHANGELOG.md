@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.3.4](https://github.com/mayrodev/app-commit-tag-version/compare/v1.3.3...v1.3.4) (2026-05-06)
+
+
+### Bug Fixes
+
+* to 006 ([d23fe44](https://github.com/mayrodev/app-commit-tag-version/commit/d23fe4472c42d904efbc807f6b1fa99622867cec))
+* to 007 ([9cf0968](https://github.com/mayrodev/app-commit-tag-version/commit/9cf0968e9b1a89d241c8cd74e89f5c70bcca46cb))
+* to 008 ([7384814](https://github.com/mayrodev/app-commit-tag-version/commit/73848143c3820803993be9a77a88ea763fd49a8a))
+
 ## [1.3.3](https://github.com/mayrodev/app-commit-tag-version/compare/v1.3.2...v1.3.3) (2026-05-06)
 
 
