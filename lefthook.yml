@@ -1,4 +1,8 @@
 pre-push:
   commands:
     require-changelog:
-      run: git diff --name-only @{u}..HEAD | grep -q "CHANGELOG.md"
+      run: |
+        if ! git diff --name-only @{u}..HEAD | grep -q "CHANGELOG.md"; then
+          echo "   Rode 'npm run release' antes de fazer push."
+          exit 1
+        fi
